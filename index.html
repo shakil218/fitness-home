@@ -16,19 +16,23 @@
         <ul
           class="hidden md:flex justify-center items-center gap-12 mr-5 text-lg"
         >
-          <li class="bg-[#E6533C] px-2 py-1 rounded-full">
+          <li
+            class="bg-[#E6533C] px-2 py-1 rounded-full hover:bg-[#e6533cc3] hover:text-gray-400"
+          >
             <a href="#">Home</a>
           </li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="hover:text-gray-400"><a href="#">About</a></li>
+          <li class="hover:text-gray-400"><a href="#">Service</a></li>
+          <li class="hover:text-gray-400"><a href="#">Contact</a></li>
         </ul>
         <img class="md:hidden" src="images/menu.png" alt="" />
       </nav>
       <!-- banner -->
       <section class="md:flex w-11/12 lg:w-full mx-auto mb-10">
         <div class="mt-14">
-          <h3 class="text-3xl md:text-5xl lg:text-7xl font-bold md:leading-15 lg:leading-20">
+          <h3
+            class="text-3xl md:text-5xl lg:text-7xl font-bold md:leading-15 lg:leading-20"
+          >
             Get body in <br />
             shape & stay <br />
             healthy
@@ -39,12 +43,12 @@
           </p>
           <div class="flex gap-3 md:gap-6">
             <button
-              class="bg-[#E6533C] md:text-lg font-medium md:font-semibold text-center px-6 py-2.5 rounded-full"
+              class="bg-[#E6533C] md:text-lg font-medium md:font-semibold text-center px-6 py-2.5 rounded-full hover:bg-[#e6533cc3] hover:text-gray-400 hover:scale-105 transition"
             >
               Join Club Now!
             </button>
             <button
-              class="md:text-lg font-medium md:font-semibold text-center px-6 py-2.5 rounded-full bg-transparent border border-white"
+              class="md:text-lg font-medium md:font-semibold text-center px-6 py-2.5 rounded-full bg-transparent border border-white hover:bg-white/20 hover:text-gray-400 hover:scale-105 transition"
             >
               Download App
             </button>
@@ -52,7 +56,9 @@
         </div>
         <div class="relative mt-8">
           <img class="mr-10" src="images/Images 2.png" alt="" />
-          <div class="bg-[#EFEDE8]/10 p-3 rounded-xl absolute top-20 lg:top-30 right-0 md:right-[-10%] lg:right-0">
+          <div
+            class="bg-[#EFEDE8]/10 p-3 rounded-xl absolute top-20 lg:top-30 right-0 md:right-[-10%] lg:right-0"
+          >
             <h3 class="text-[40px] font-bold">500+</h3>
             <p class="text-[13px] text-[#ffffff]/65">Free Workout Videos</p>
           </div>
@@ -70,8 +76,50 @@
     </header>
     <!-- main -->
     <main>
-      <!-- banner -->
-      <section></section>
+      <!-- Change Your Habits -->
+      <section class="my-24">
+        <div class="md:max-w-xl lg:max-w-2xl mx-auto text-center mb-14">
+          <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+            Change Your Habits
+          </h3>
+          <p class="text-[#FFFFFF]/50 mt-5">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center"
+        >
+          <div class="flex flex-col items-center gap-5 p-5">
+            <img class="rounded-full" src="./images/image 3.png" alt="" />
+            <div class="w-9/12 lg:w-11/12 mx-auto">
+              <h3 class="text-2xl font-semibold mb-3">Movement</h3>
+              <p class="text-[#FFFFFF]/50">We believe fitness should be accessible to everyone</p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center gap-5 p-5">
+            <img class="rounded-full" src="./images/image 2.png" alt="" />
+            <div class="w-9/12 lg:w-11/12 mx-auto">
+              <h3 class="text-2xl font-semibold mb-3">Time</h3>
+              <p class="text-[#FFFFFF]/50">We believe fitness should be accessible to everyone</p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center gap-5 p-5">
+            <img class="rounded-full" src="./images/image 4.png" alt="" />
+            <div class="w-9/12 lg:w-11/12 mx-auto">
+              <h3 class="text-2xl font-semibold mb-3">Practice</h3>
+              <p class="text-[#FFFFFF]/50">We believe fitness should be accessible to everyone</p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center gap-5 p-5">
+            <img class="rounded-full" src="./images/image 5.png" alt="" />
+            <div class="w-9/12 lg:w-11/12 mx-auto">
+              <h3 class="text-2xl font-semibold mb-3">Weight Loss</h3>
+              <p class="text-[#FFFFFF]/50">We believe fitness should be accessible to everyone</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer -->
     <footer></footer>
